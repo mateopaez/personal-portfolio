@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { navLinks } from '../constants/index.js'
 
 const NavItems = () => {
+  // Loading in the Navbar section headers
   return (
     <ul className="nav-ul">
       {navLinks.map(({ id, href, name}) => (
@@ -21,6 +22,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen( (prevIsOpen) => !prevIsOpen );
 
   return (
+    // Main container
     <header className='fixed top-0 left-0 right-0 z-50 bg-black/90'>
       <div className='max-w-7xl mx-auto'>
         <div className='flex justify-between items-center py-5 mx-auto c-space'>
