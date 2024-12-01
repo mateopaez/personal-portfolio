@@ -1,8 +1,16 @@
-# React + Vite
+# Mateo's Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Mateo's Website](src/assets/website.png)](https://mateopaez.site/)
 
-Currently, two official plugins are available:
+This is my personal portfolio website made in React using Three.js for 3D models! Visit it at [mateopaez.site](https://mateopaez.site/) (when its finished)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+* [react.js](https://reactjs.org)
+* [three.js](https://threejs.org)
+* [react three fiber](https://r3f.docs.pmnd.rs/getting-started/introduction)
+* [react three drei](https://drei.docs.pmnd.rs/getting-started/introduction)
+* [tailwind](https://tailwindcss.com)
+* [vite](https://vite.dev)
+* [node.js](https://nodejs.org/en)
+* [email.js](https://www.emailjs.com)
