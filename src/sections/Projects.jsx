@@ -1,7 +1,7 @@
 import { useState, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
-import { myProjects } from "../../index.js"
+import { myProjects } from "../index.js"
 import CanvasLoader from "../components/Loading.jsx"
 import DemoComputer from "../components/DemoComputer.jsx";
 

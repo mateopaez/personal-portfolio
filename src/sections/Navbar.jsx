@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { navLinks } from '../../index.js'
+import { navLinks } from '../index.js'
 
 const NavItems = () => {
   // Loading in the Navbar section headers
