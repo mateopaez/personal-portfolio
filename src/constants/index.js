@@ -36,6 +36,7 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #C94AFF',
       },
       arrow: 'src/assets/arrow1.png',
+      dots: 'src/assets/dots1.png',
       spotlight: 'src/assets/spotlight1.png',
       tags: [
         {
@@ -74,6 +75,7 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #238360',
       },
       arrow: 'src/assets/arrow2.png',
+      dots: 'src/assets/dots2.png',
       spotlight: 'src/assets/spotlight3.png',
       tags: [
         {
@@ -100,7 +102,7 @@ export const navLinks = [
     },
     {
       title: 'Gobber\'s Hoard - Looter/Stealth Game',
-      desc: 'In Gobber\'s Hoard you play as Gobber, a mischievous goblin returning to his old master\'s tower to reclaim its treasures. Your mission is to collect as much gold as possible while sneaking past guards. Strategy and timing are key in this lighthearted adventure!',
+      desc: 'In Gobber\'s Hoard you play as Gobber, a mischievous goblin returning to his old master\'s tower to reclaim its treasures. Strategy and timing are key in this lighthearted adventure!',
       subdesc:
         'Member of a 5-person team where my primary roles were level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.',
       href: 'https://bathrobe-studios.github,io',
@@ -112,6 +114,7 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #2F6DB5',
       },
       arrow: 'src/assets/arrow3.png',
+      dots: 'src/assets/dots3.png',
       spotlight: 'src/assets/spotlight2.png',
       tags: [
         {

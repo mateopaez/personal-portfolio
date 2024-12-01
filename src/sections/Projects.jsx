@@ -8,6 +8,7 @@ import DemoComputer from "../components/DemoComputer.jsx";
 const projectCount = myProjects.length;
 
 const Projects = () => {
+
     // Get selected project:
     const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
     const currentProject = myProjects[selectedProjectIndex];
@@ -36,7 +37,7 @@ const Projects = () => {
 
                 {/* Logo */}
                 <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
-                    <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm" />
+                    <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm rounded-lg" />
                 </div>
 
                 {/* Description */}
@@ -56,8 +57,6 @@ const Projects = () => {
                         ))}
                     </div>
 
-                    {/* Use three images and render each image depending on which project number we're on */}
-                    
                     {/* Site link */}
                     <a className="flex items-center gap-2 cursor-pointer text-white-600" href={currentProject.href} target="_blank" rel="noreferrer">
                         <p>Check Live Site</p>
@@ -70,6 +69,10 @@ const Projects = () => {
                     <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
                         <img src="src/assets/left-arrow.png" alt="left arrow" className="w-4 h-4"/>
                     </button>
+
+                    <div className="flex items-center gap-2">
+                        <img src={currentProject.dots} />
+                    </div>
 
                     <button className="arrow-btn" onClick={() => handleNavigation('next')}>
                         <img src="src/assets/right-arrow.png" alt="right arrow" className="w-4 h-4"/>
