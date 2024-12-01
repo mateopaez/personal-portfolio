@@ -26,15 +26,16 @@ export const navLinks = [
       title: 'Voxa - AI Voice Assistant',
       desc: 'Voxa is a voice-activated AI assistant designed to provide seamless, fully voice-to-voice interaction. A sleek and modern AI that you can use from any web browser.',
       subdesc:
-        'It uses both advanced speech-to-text and text-to-speech pipelines integrated with OpenAI\'s GPT & Whsiper models, as well as ElevenLab\'s API to deliver intelligent, conversational responses.',
+        'It uses a combination of advanced speech-to-text and text-to-speech pipelines integrated with OpenAI\'s GPT & Whsiper models, as well as ElevenLab\'s API to deliver intelligent, conversational responses.',
       href: 'https://voxa-mp.vercel.app',
       texture: 'src/textures/project/project1.mp4',
       logo: 'src/assets/voxa.png',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        backgroundColor: '#291033',
+        border: '0.2px solid #280E33',
+        boxShadow: '0px 0px 60px 0px #C94AFF',
       },
+      arrow: 'src/assets/arrow1.png',
       spotlight: 'src/assets/spotlight1.png',
       tags: [
         {
@@ -44,45 +45,18 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'src/assets/tailwindcss.png',
+          name: 'TypeScript',
+          path: 'src/assets/typescript.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: 'src/assets/typescript.png',
+          name: 'TailwindCSS',
+          path: 'src/assets/tailwindcss.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
           path: 'src/assets/python.png',
-        },
-      ],
-    },
-    {
-      title: 'Gobber\'s Hoard - Looter/Stealth Game',
-      desc: 'In Gobber\'s Hoard you play as Gobber, a mischievous goblin returning to his old master\'s tower to reclaim its treasures. Your mission is to collect as much gold as possible while sneaking past guards. Strategy and timing are key in this lighthearted adventure!',
-      subdesc:
-        'Member of a 5-person team where my primary roles were level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.',
-      href: 'https://bathrobe-studios.github,io',
-      texture: 'src/textures/project/project2.mp4',
-      logo: 'src/assets/gobbershoard.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: 'src/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'JavasSript',
-          path: 'src/assets/javascript.png',
-        },
-        {
-          id: 2,
-          name: 'RPG Maker MV',
-          path: 'src/assets/rpgmaker.png',
         },
       ],
     },
@@ -93,14 +67,13 @@ export const navLinks = [
         'Member of a 5-person team where my primary role was front-end design and development while also helping out with back-end HTTP connection handling.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: 'src/textures/project/project3.mp4',
-      logo: 'src/assets/project-logo3.png',
+      logo: 'src/assets/uofa.png',
       logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        backgroundColor: '#091D12',
+        border: '0.2px solid #052D17',
+        boxShadow: '0px 0px 60px 0px #238360',
       },
+      arrow: 'src/assets/arrow2.png',
       spotlight: 'src/assets/spotlight3.png',
       tags: [
         {
@@ -122,6 +95,34 @@ export const navLinks = [
           id: 4,
           name: 'Django',
           path: 'src/assets/django.svg',
+        },
+      ],
+    },
+    {
+      title: 'Gobber\'s Hoard - Looter/Stealth Game',
+      desc: 'In Gobber\'s Hoard you play as Gobber, a mischievous goblin returning to his old master\'s tower to reclaim its treasures. Your mission is to collect as much gold as possible while sneaking past guards. Strategy and timing are key in this lighthearted adventure!',
+      subdesc:
+        'Member of a 5-person team where my primary roles were level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.',
+      href: 'https://bathrobe-studios.github,io',
+      texture: 'src/textures/project/project2.mp4',
+      logo: 'src/assets/gobbershoard.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB5',
+      },
+      arrow: 'src/assets/arrow3.png',
+      spotlight: 'src/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'JavasSript',
+          path: 'src/assets/javascript.png',
+        },
+        {
+          id: 2,
+          name: 'RPG Maker MV',
+          path: 'src/assets/rpgmaker.png',
         },
       ],
     },
