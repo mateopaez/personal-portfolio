@@ -8,10 +8,10 @@ import { useGSAP } from '@gsap/react';
 
 const DemoComputer = (props) => {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF('src/models/computer.glb');
+  const { nodes, materials, animations } = useGLTF('src/assets/models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? props.texture : 'src//textures/project/project1.mp4');
+  const txt = useVideoTexture(props.texture ? props.texture : 'src/assets/textures/project/project1.mp4');
 
   useEffect(() => {
     // Function to flip texture as it loads upside down initially
@@ -1012,6 +1012,6 @@ const DemoComputer = (props) => {
   );
 };
 
-useGLTF.preload('src//models/computer.glb');
+useGLTF.preload('src/assets/models/computer.glb');
 
 export default DemoComputer;
