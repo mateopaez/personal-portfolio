@@ -79,7 +79,8 @@ const Projects = () => {
                     </button>
                 </div>
             </div>
-
+            
+            {/* Computer model container */}
             <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
                 <Canvas>
                     <ambientLight intensity={Math.PI} />
