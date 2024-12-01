@@ -39,7 +39,9 @@ body {
   }
 
   .text-gray_gradient {
-    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+    @apply bg-gradient-to-b from-[#BFC9D6] from-60% to-[#E9ECEF] bg-clip-text font-extrabold text-transparent;
+    background-position: 50%;
+    background-size: 200%;
   }
 
   /* button component */
@@ -57,7 +59,11 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-extrabold !leading-normal text-transparent;
+  }
+
+  .glow {
+    @apply drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] drop-shadow-[0_0_20px_rgba(255,255,255,0.5)];
   }
 
   /* about section */
