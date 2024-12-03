@@ -5,7 +5,7 @@ const WorkExperience = () => {
   return (
     <section className="c-space my-20 w-full" id="experience">
         <div className="w-full text-white-600">
-            <p className="head-text">My Work Experience</p>
+            <p className="head-text">My Experience</p>
 
             {/* Main work Container */}
             <div className="work-container">
