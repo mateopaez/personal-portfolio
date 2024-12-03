@@ -1,11 +1,22 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Globe from 'react-globe.gl';
 import Button from '../components/Button.jsx';
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
+  // Making the globe auto-rotate
+  const globeEl = useRef();
+  useEffect(() => {
+    if (globeEl.current) {
+      const controls = globeEl.current.controls();
+      controls.autoRotate = true; // Enable auto-rotation
+      controls.autoRotateSpeed = 1; // Adjust rotation speed
+    }
+  }, []);
+
   const handleCopy = () => {
+
     // Copy email to clipboard
     navigator.clipboard.writeText("mattypaez@yahoo.ca");
     setHasCopied(true);
@@ -54,6 +65,7 @@ const About = () => {
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
+                ref={globeEl}
                 height={326}
                 width={326}
                 backgroundColor="rgba(0, 0, 0, 0)"
