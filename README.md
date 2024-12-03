@@ -1,8 +1,8 @@
 # Mateo's Website
 
-[![Mateo's Website](./assets/website.png)](https://mateopaez.site/)
+[![Mateo's Website](public/assets/website.png)](https://mateopaez.site/)
 
-This is my personal portfolio website made in React using Three.js for 3D models! Visit it at [mateopaez.site](https://mateopaez.site/) (when its finished)
+This is the new and second iteration of my personal portfolio website made in React, using Three.js for 3D models! Visit it at [mateopaez.site](https://mateopaez.site/)
 
 ## Tech Stack
 
