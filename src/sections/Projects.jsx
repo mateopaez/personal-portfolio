@@ -67,7 +67,7 @@ const Projects = () => {
                 {/* Prev/Next arrow buttons */}
                 <div className="flex justify-between items-center mt-7">
                     <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-                        <img src="src/assets/left-arrow.png" alt="left arrow" className="w-4 h-4"/>
+                        <img src="./assets/left-arrow.png" alt="left arrow" className="w-4 h-4"/>
                     </button>
 
                     <div className="flex items-center gap-2">
@@ -75,7 +75,7 @@ const Projects = () => {
                     </div>
 
                     <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-                        <img src="src/assets/right-arrow.png" alt="right arrow" className="w-4 h-4"/>
+                        <img src="./assets/right-arrow.png" alt="right arrow" className="w-4 h-4"/>
                     </button>
                 </div>
             </div>
