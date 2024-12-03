@@ -11,7 +11,7 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF('./models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? props.texture : './textures/project/project1.mp4');
+  const txt = useVideoTexture(props.texture ? props.texture : './textures/project/Project1.mp4');
 
   useEffect(() => {
     // Function to flip texture as it loads upside down initially

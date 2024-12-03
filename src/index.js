@@ -28,7 +28,7 @@ export const navLinks = [
       subdesc:
         'It uses a combination of advanced speech-to-text and text-to-speech pipelines integrated with OpenAI\'s GPT & Whsiper models, as well as ElevenLab\'s API to deliver intelligent, conversational responses.',
       href: 'https://voxa-mp.vercel.app',
-      texture: './textures/project/project1.mp4',
+      texture: './textures/project/Project1.mp4',
       logo: './assets/voxa.png',
       logoStyle: {
         backgroundColor: '#291033',
@@ -67,7 +67,7 @@ export const navLinks = [
       subdesc:
         'Member of a 5-person team where my primary role was front-end design and development while also helping out with back-end HTTP connection handling.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: './textures/project/project3.mp4',
+      texture: './textures/project/Project2.mp4',
       logo: './assets/uofa.png',
       logoStyle: {
         backgroundColor: '#091D12',
@@ -106,7 +106,7 @@ export const navLinks = [
       subdesc:
         'Member of a 5-person team where my primary roles were level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.',
       href: 'https://bathrobe-studios.github,io',
-      texture: './textures/project/project2.mp4',
+      texture: './textures/project/Project3.mp4',
       logo: './assets/gobbershoard.png',
       logoStyle: {
         backgroundColor: '#13202F',
