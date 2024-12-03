@@ -11,7 +11,7 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Experience',
+      name: 'Projects',
       href: '#projects',
     },
     {
@@ -144,28 +144,25 @@ export const navLinks = [
     {
       id: 1,
       name: 'University of Alberta',
-      pos: 'Bachelor of Science',
+      pos: 'BACHELOR OF SCIENCE',
       duration: '2019 - 2024',
       title: "Graduated from the University of Alberta achieving a bachelor of science degree in computer science with specialization.",
       icon: 'src/assets/uofa.png',
-      animation: 'victory',
     },
     {
       id: 2,
       name: 'Code Ninjas',
-      pos: 'Programming Instructor',
+      pos: 'PROGRAMMING INSTRUCTOR',
       duration: '2022 - 2024',
       title: "Taught children and teenagers fundamental programming practices via a programming curriculum which utilizes JavaScript, Lua, C#, Makecode Arcade, and Unity.",
       icon: 'src/assets/codeninjas.png',
-      animation: 'clapping',
     },
     {
       id: 3,
       name: 'Freedom Mobile',
-      pos: 'Sales Specialist',
+      pos: 'SALES SPECIALIST',
       duration: '2019 - 2022',
       title: "Responsible for meeting sales goals by selling the company\'s products and services to new and existing customers. Educated customers on all plans and electronics, and assisted their decision to purchase their ideal package.",
       icon: 'src/assets/freedommobile.png',
-      animation: 'salute',
     },
   ];
