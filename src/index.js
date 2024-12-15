@@ -66,7 +66,7 @@ export const navLinks = [
       desc: 'Social Distribution is a Blogging/Social Network platform where users can share posts and interact with their friends. Developed in JavaScript & React for the front-end and Python & Django for the back-end.',
       subdesc:
         'Member of a 5-person team where my primary role was front-end design and development while also helping out with back-end HTTP connection handling.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://github.com/CMPUT404-Fall22-Project/Group-Project',
       texture: './textures/project/Project2.mp4',
       logo: './assets/uofa.png',
       logoStyle: {
@@ -105,7 +105,7 @@ export const navLinks = [
       desc: 'In Gobber\'s Hoard you play as Gobber, a mischievous goblin returning to his old master\'s tower to reclaim its treasures. Strategy and timing are key in this lighthearted adventure!',
       subdesc:
         'Member of a 5-person team where my primary roles were level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.',
-      href: 'https://bathrobe-studios.github,io',
+      href: 'https://bathrobe-studios.github.io',
       texture: './textures/project/Project3.mp4',
       logo: './assets/gobbershoard.png',
       logoStyle: {
