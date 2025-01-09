@@ -6,12 +6,11 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import Experience from './sections/Experience'
-import Analytics from '@vercel/analytics/next'
+import { Analytics } from '@vercel/analytics/react'
 
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto">
-      <Analytics />
       <Navbar />
       <Hero />
       <About />
@@ -19,6 +18,7 @@ const App = () => {
       <Experience />
       <Contact />
       <Footer />
+      <Analytics />
     </main>
   )
 }
