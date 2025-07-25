@@ -39,7 +39,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Mateo Paez</p>
               <p className="grid-subtext">
-                Front-end focused developer with a CS background, creating performant, accessible web experiences
+                Front-end focused developer with a CS background, creating accessible, high-performance web experiences
                 that drive real-world results.
               </p>
             </div>
@@ -53,8 +53,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I use technologies like TypeScript, React, Next.js, and Python to build accessible, 
-                high-performance applications across the stack.
+                I use technologies like TypeScript, React, Next.js, and Python to sleek & scalable applications across the stack.
               </p>
             </div>
           </div>
