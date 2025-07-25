@@ -53,7 +53,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I use technologies like TypeScript, React, Next.js, and Python to sleek & scalable applications across the stack.
+                I use technologies like TypeScript, React, Next.js, and Python to develop sleek & scalable applications across the stack.
               </p>
             </div>
           </div>
