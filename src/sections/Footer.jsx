@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         {/* right side text */}
-        <p className="text-white-500">© 2024 Mateo Paez. All rights reserved.</p>
+        <p className="text-white-500">© 2025 Mateo Paez. All rights reserved.</p>
       </footer>
     );
   };

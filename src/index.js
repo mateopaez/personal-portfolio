@@ -143,11 +143,11 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'University of Alberta',
-      pos: 'BACHELOR OF SCIENCE',
-      duration: '2019 - 2024',
-      title: "Graduated from the University of Alberta achieving a bachelor of science degree in computer science with specialization.",
-      icon: './assets/uofa.png',
+      name: 'We Know Training',
+      pos: 'FRONT-END DEVELOPER',
+      duration: '2025 - Present',
+      title: "Designed and maintained scalable, secure web applications across multiple brands using TypeScript, Next.js, HTML, CSS and modern SEO practices, with a focus on performance and measurable impact.",
+      icon: './assets/wkt.png',
     },
     {
       id: 2,
@@ -158,11 +158,11 @@ export const navLinks = [
       icon: './assets/codeninjas.png',
     },
     {
-      id: 3,
-      name: 'Freedom Mobile',
-      pos: 'SALES SPECIALIST',
-      duration: '2019 - 2022',
-      title: "Responsible for meeting sales goals by selling the company\'s products and services to new and existing customers. Educated customers on all plans and electronics, and assisted their decision to purchase their ideal package.",
-      icon: './assets/freedommobile.png',
+      id: 1,
+      name: 'University of Alberta',
+      pos: 'BACHELOR OF SCIENCE',
+      duration: '2019 - 2024',
+      title: "Graduated from the University of Alberta achieving a bachelor of science degree in computer science with specialization.",
+      icon: './assets/uofa.png',
     },
   ];
