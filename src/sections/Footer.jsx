@@ -9,9 +9,9 @@ const Footer = () => {
       <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
         {/* left side text */}
         <div className="text-white-500 flex gap-2">
-          <p>Terms & Conditions</p>
+          <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">Terms & Conditions</a>
           <p>|</p>
-          <p>Privacy Policy</p>
+          <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">Privacy Policy</a>
         </div>
 
         {/* middle buttons*/}
